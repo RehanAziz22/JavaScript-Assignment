@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.my-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+}
+
+
+#genre,
+#year,
+#language,
+#ratings {
+    margin: 10px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    /* min-width: 300px; */
+
+
+}
+
+#genre>select,
+#year>select,
+#language>select {
+    /* min-width: 350px; */
+    height: 30px;
+}
+
+#ratings>select {
+    width: 100%;
+    height: 30px;
+}
+.movie-details{
+    display: flex;
+}
+
+.movie-details h6{
+    color: #4040ff;
+}
+.movie-subdetails{
+    display: flex;
+}
+
+.movie-subdetails .certification{
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+.movie-subdetails .genreslist{
+    margin: auto;
+    padding: 0px 3px;
+}
